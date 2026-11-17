@@ -1,0 +1,10 @@
+DECISION TREE - PERFORMANCE METRICS
+=============================================
+
+             Metric    Score  Score (%)
+  Training Accuracy 0.707688      70.77
+Validation Accuracy 0.705917      70.59
+          Precision 0.724614      72.46
+             Recall 0.740543      74.05
+           F1 Score 0.732492      73.25
+            ROC-AUC 0.776693      77.67
