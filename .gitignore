@@ -233,3 +233,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Keep compact Member 4 evaluation tables under version control
+!reports/model_comparison/**/*.csv

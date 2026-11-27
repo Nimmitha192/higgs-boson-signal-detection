@@ -1,0 +1,7 @@
+Model,Split,Rows,Accuracy,Precision,Recall,F1,ROC AUC,Average precision,Trapezoidal PR-AUC,Source
+Decision Tree,Validation,1608195.0,0.7059168819701591,0.7246138884878842,0.7405428835456009,0.7324917970290001,0.7766934834474856,,,Drive performance_metrics.csv
+Logistic Regression,Validation,1608195.0,0.6449168166795693,0.6444265837286127,0.7739452953447519,0.7032724351496439,0.683953159157431,0.6947202037623356,,"Drive validation_model_comparison.csv, baseline"
+Random Forest,Validation,1608195.0,,,,,0.8113832573003295,,,"Drive validation_tuning.csv, selected candidate"
+Logistic Regression,Test,1608196.0,0.6455867319655066,0.6450177554483548,0.7742383364460542,0.703745401282599,0.6847844625813614,0.6956565115034166,,"Drive test_metrics.csv, baseline"
+Random Forest,Test,1608196.0,0.7326861899917672,0.7412426103588494,0.7809620423413913,0.7605841196575389,0.81159881815268,,0.833651317609946,Drive test_metrics.csv and run_metadata.json
+Decision Tree,Unspecified in plot,,,,,,,0.7968,,"Drive precision_recall_curve.png, legend at 4 decimals"
